@@ -45,7 +45,13 @@ hr {
 p, ul {
   text-align: justify;
 }
-
+nav a {
+  margin-right: 1.5em;
+  line-height: 2.5;
+}
+nav a:last-child  {
+  margin-right: 0;
+}
 main h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
